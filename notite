@@ -1,0 +1,19 @@
+Pasi pentru inceperea unui proiect de DJANGO:
+
+    1. Cream virtual environment
+    2. pip install django (instructiunile se scriu in terminal)
+    3. django-admin start progect contacte (sau alt nume)
+    4. cd contacte #cd = change directory
+    5. python manage.py startapp prim_contact #facem o aplicatie in cadrul proiectului
+    6.
+
+
+
+
+comenzi de git(tot in terminal):
+    1. git init #initializeaza un repo local
+    2. git remote add origin https://github.com/constantinus345/dj46_2 #am facut link intre repozitorul local si github
+    3. git add . #sau git add --all, adauga fisierele in git tracking
+    4. git commit -m "primul commit" #imi salveaza fisierele in repo local
+    5. git push --set-upstream origin maste #am incarcat codul pe branch-ul master
+    6. git checkout -b "alt_branch"   # fac un alt branch, ca sa imi adaug alte chestii pe el
